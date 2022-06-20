@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    background: url(../assets/images/pexels-alexas-fotos-2220337.jpg);  
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+#navbar{
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    color: brown;
+    font-style: italic;
+    font-size: larger;
+}
+
+.logo span{
+    color: darkgrey;
+}
+
+.links ul a{
+    color: darkgrey;
+    font-size: 25px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+.kleasounds{
+    color: white;
+    font-size: 25px;
+    margin-top: 200px;
+}
+.kleasounds h1{
+    text-align: center;
+    color: ;
+}
+.kleasounds p{
+    text-align: center;
+}
+.kleasounds #book{
+    background-color: brown;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 0 70px;
+    color: darkgrey;
+    margin-left: 680px;
+    margin-top: 40px;
+    cursor: pointer;
+}
