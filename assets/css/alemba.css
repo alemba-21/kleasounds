@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    background: url(../images/pexels-alexas-fotos-2220337.jpg);  
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+#navbar{
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    color: brown;
+    font-style: italic;
+    font-size: larger;
+}
+
+.logo span{
+    color: darkgrey;
+}
+
+.links ul a{
+    color: darkgrey;
+    font-size: 25px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+.kleasounds{
+    color: white;
+    font-size: 25px;
+    margin-top: 200px;
+}
+.kleasounds h1{
+    text-align: center;
+    color: ;
+}
+.kleasounds p{
+    text-align: center;
+}
+.kleasounds #book{
+    background-color: brown;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 0 70px;
+    color: darkgrey;
+    margin-left: 680px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.main-1{
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#about{
+    width: 100%; 
+    height: 85.1vh; 
+    padding: 100px 0px;
+    background-color: brown;
+}
+
+#about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+    margin-right: 90px;
+}
+
+.main-2{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1{
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.about-text h4{
+    color: darkgrey;
+    letter-spacing: 8px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.about-text p{
+    letter-spacing: 1px;
+    line-height: 23px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+#btn-1{
+    background-color: black;
+    color: darkgrey;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    
+}
+
+#btn-1:hover{
+    background-color: transparent;
+    border: 2px solid darkgrey;
+    cursor: pointer;
+}
+
+/* services */
+.services{
+    margin-left: 50px;
+    margin-top: 150px;
+
+}
+
+.serve{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%;
+
+}
+
+.title h2{
+    color: brown;
+    font-size: 50px;
+}
+
+.box{
+    font-size: 20px;
+
+}
+
+/* footer */
+
+.footer{
+    margin: 0 0 2em;
+    overflow: hidden;
+    background: #141006;
+    border: 1px solid #000;
+    margin-top: 150px;
+
+}
+
+.footer .columns{
+    width: 100%;
+
+   
+}
+.footer .columns .column{
+    padding: 3em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer .footerTitle p{
+    font-size: 2em;
+    color: #fff;
+}
+
+.footer .footerTitle p span{
+    color: #FAFF00;
+    font-size: 1em;
+
+}
+
+.footer .footerContent{
+    color: #fff;
+    width: 80%;
+    border-top: 3px solid #adadadde;
+    padding-right: 55px;
+
+}
+
+.footer .footerContent .socialIcons{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 450px;
+    font-size: 30px;
+    
+}
+
+.footer .footerContent .socialIcons i{
+    font-size: 1.5em;
+    transition: all .3s ease;
+}
+.footer .footerContent .socialIcons i:hover{
+    font-size: 2.5em;
+    cursor: pointer;
+}
+
+.footer .footerContent .footColumns{
+    margin-top: 50px;
+    justify-content: space-between;
+    display: flex;
+}
+.footer .footerContent .footColumns .col-1 li a{
+    color: #adadadde;
+    font-size: .9em;
+    transition: all .3s ease;
+}
+
+.footer .footerContent .footColumns .col-1 li a:hover{
+    color: #fff;
+    cursor: pointer;
+} 
+
