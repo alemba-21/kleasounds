@@ -48,37 +48,51 @@
 .kleasounds p{
     text-align: center;
 }
+#book a{
+    text-decoration: none;
+    font-size: 20px;
+    color: darkgrey;
+}
+
 .kleasounds #book{
     background-color: brown;
-    border-radius: 10px;
-    font-size: 30px;
-    padding: 0 70px;
-    color: darkgrey;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
     margin-left: 680px;
     margin-top: 40px;
     cursor: pointer;
 }
 
+#book:hover{
+    background-color: black;
+    border: 5px solid darkgrey;
+    cursor: pointer;
+
+}
+
+
 .main-1{
-    margin-top: 150px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 #about{
-    width: 100%; 
-    height: 85.1vh; 
-    padding: 100px 0px;
     background-color: brown;
+    height: 100vh;
 }
 
 #about img{
     height: auto;
-    width: 430px;
+    width: 500px;
+    margin-top: 150px;
 }
 .about-text{
     width: 550px;
     margin-right: 90px;
+    margin-top: 180px;
 }
 
 .main-2{
@@ -111,6 +125,8 @@
     line-height: 23px;
     font-size: 18px;
     margin-bottom: 45px;
+    margin-left: 50px;
+    text-align: center;
 }
 
 #btn-1{
@@ -122,6 +138,7 @@
     padding: 13px 30px;
     border-radius: 30px;
     transition: .4s;
+    margin-left: 200px;
     
 }
 
@@ -132,22 +149,37 @@
 }
 
 /* services */
-.services{
-    margin-left: 50px;
-    margin-top: 150px;
+#services{
 
 }
 
 .serve{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 50%;
 
 }
 
 .title h2{
     color: brown;
     font-size: 50px;
+    margin-top: 140px;
+    margin-left: 670px;
+}
+
+h5{
+    font-size: 27px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.cop p{
+    width: 140%;
+}
+
+.serve i{
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-left: 80px;
 }
 
 .box{
@@ -155,80 +187,98 @@
 
 }
 
+.card{
+    font-weight: bold;
+    margin-left: -100px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.box-1{
+    font-size: 20px;
+    margin: 40px;
+    padding: 100px;
+}
+
+.box-2{
+    font-size: 20px;
+    margin-left: 10px;
+    margin: 50px;
+    padding: 100px;
+    
+
+}
+
+.box-3{
+    font-size: 20px;
+    margin-left: 10px;
+    margin: 50px;
+    padding: 100px;
+    
+
+}
+
 /* footer */
 
-.footer{
-    margin: 0 0 2em;
+#footer{
     overflow: hidden;
     background: #141006;
-    border: 1px solid #000;
-    margin-top: 150px;
+    margin-top: 200px;
 
 }
 
-.footer .columns{
-    width: 100%;
-
-   
-}
-.footer .columns .column{
-    padding: 3em;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.itemz{
+    color: brown;
+    font-size: 20px;
 }
 
-.footer .footerTitle p{
-    font-size: 2em;
-    color: #fff;
-}
-
-.footer .footerTitle p span{
-    color: #FAFF00;
-    font-size: 1em;
+.itemz .footertitle p{
+    font-size: 40px;
+    margin-left: 700px;
+    margin-top: 50px;
 
 }
 
-.footer .footerContent{
-    color: #fff;
-    width: 80%;
-    border-top: 3px solid #adadadde;
-    padding-right: 55px;
-
-}
-
-.footer .footerContent .socialIcons{
-    display: flex;
-    width: 25%;
-    justify-content: space-around;
+.itemz .footernamba{
     margin-top: 100px;
-    margin-left: 450px;
-    font-size: 30px;
+    margin-left: 200px;
+    color: darkgrey;
+}
+
+.itemz .footernamba li{
+    display: flex;
+    line-height: 35px;
+}
+
+#footer .column{
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+}
+
+#footer .footerContent .socialIcons {
+    margin-top: 150px;
+    margin-right: 200px;
     
 }
 
-.footer .footerContent .socialIcons i{
+
+#footer .footerContent .socialIcons a{
+    text-decoration: none;
+    font-size: 20px;
+    color: darkgrey;
+}
+
+#footer .footerContent .socialIcons i{
     font-size: 1.5em;
     transition: all .3s ease;
+    font-size: 35px;
+    margin-right: 20px;
 }
-.footer .footerContent .socialIcons i:hover{
+#footer .footerContent .socialIcons i:hover{
     font-size: 2.5em;
     cursor: pointer;
 }
 
-.footer .footerContent .footColumns{
-    margin-top: 50px;
-    justify-content: space-between;
-    display: flex;
-}
-.footer .footerContent .footColumns .col-1 li a{
-    color: #adadadde;
-    font-size: .9em;
-    transition: all .3s ease;
-}
 
-.footer .footerContent .footColumns .col-1 li a:hover{
-    color: #fff;
-    cursor: pointer;
-} 
 

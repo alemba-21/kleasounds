@@ -2,8 +2,6 @@
 
 ## By Alemba Alex
 
-# Kleasounds
-
 ## Screenshot
  
 ![image](./assets/images/Screenshot%20from%202022-07-08%2000-36-09.png)
